@@ -1,12 +1,9 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: conail.net
+email: info@conail.net
+description: "Conail Stewart."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+url: "http://www.conail.net"
+twitter_username: conail
+github_username:  conail
 markdown: kramdown
 permalink: pretty
