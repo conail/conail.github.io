@@ -1,9 +1,9 @@
-title: conail.net
+title: turtles
 email: info@conail.net
-description: "Conail Stewart."
-baseurl: ""
-url: "http://www.conail.net"
+description: "turtles all the way down."
+baseurl: "http://conail.github.io/"
+url: "http://conail.github.io/"
 twitter_username: conail
-github_username:  conail
+github_username: conail
 markdown: kramdown
 permalink: pretty
