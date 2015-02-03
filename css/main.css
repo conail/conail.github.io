@@ -1,6 +1,6 @@
 * { margin:0; padding:0; }
 html, body { height: 100%; }
-body { background-color:#444; font:300 16px/1.5em Helvetica, Arial, sans-serif; }
+body { background-color:#222; color:#FFF; font:300 16px/1.5em Helvetica, Arial, sans-serif; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
