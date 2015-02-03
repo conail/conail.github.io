@@ -22,7 +22,7 @@ a:visited { color: #205caa; }
 .site-footer ul { list-style: none; }
 .site-footer li, .site-footer p { font-size: 15px; letter-spacing: -.3px; color: #828282; }
 .github-icon-svg, .twitter-icon-svg { display: inline-block; width: 16px; height: 16px; position: relative; top: 3px; }
-.page-content { padding: 30px 0; background-color: #fff; }
+.page-content { padding: 30px 0; background:#000; }
 .home h1 { margin-bottom: 25px; }
 .posts { list-style-type: none; }
 .posts li { margin-bottom: 30px; }
