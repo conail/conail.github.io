@@ -1,13 +1,22 @@
+/* Colours
+ *
+ * 03617B
+ * 086F82
+ * 15767D
+ * A0CAf4
+ * D6DAE6
+ *
+ **/
 * { margin:0; padding:0; }
 html, body { height: 100%; }
-body { background-color:#222; color:#FFF; font:300 16px/1.5em Helvetica, Arial, sans-serif; }
+body { background-color:#03617B; color:#D6DAE6; font:300 16px/1.5em Helvetica, Arial, sans-serif; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
+a         { color: #2a7ae2; text-decoration:none; }
+a:hover   { color: #000; text-decoration:underline; }
 a:visited { color: #205caa; }
 .wrap:before, .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
-.wrap { max-width: 800px; padding: 0 30px;margin: 0 auto; zoom: 1; }
+.wrap { max-width: 800px; padding:0 30px; margin:0 auto; zoom:1; }
 .site-header { background:#111; border-bottom: 1px solid #000; color:#FFF; min-height:56px; }
 .site-title, .site-title:hover, .site-title:visited { color:#FFF; font:bold 26px/2em Georgia; float:left; position:relative; z-index:1; }
 .site-nav { float: right; line-height: 56px; }
