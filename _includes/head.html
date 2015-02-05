@@ -5,5 +5,10 @@
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% stylesheet main %}
+  {% if site.serving %}
+    {% javascript vendor/react %}
+  {% else %}
+    {% javascript vendor/react.min %}
+  {% endif %}
 </head>
