@@ -32,7 +32,8 @@ body > header a:hover,
 body > header a:visited { color:#FFF; }
 
 /* Page */
-body > article { background:#A0CAF4; color: #111; }
+body > section { background:#FFF; color:#111; margin:1em; padding:1em; }
+body > article ul { list-style:square; margin:0 0 0 1em; }
 
 /* Site Footer */
 body > footer { background:#03617B; color:#FFF; overflow:auto; padding:1em; }

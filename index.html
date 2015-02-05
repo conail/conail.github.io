@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section role="home">
+<article role="home">
   <ul class="posts">
     {% for post in site.posts %}
       <li>
@@ -10,5 +10,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+</article>
+<aside>
   <p class="rss"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-</section>
+</aside>
