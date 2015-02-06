@@ -7,6 +7,3 @@ end
 
 gem 'jekyll'
 gem 'rouge'
-gem 'sprockets'
-gem 'jekyll-assets'
-gem 'react-jsx-sprockets'
