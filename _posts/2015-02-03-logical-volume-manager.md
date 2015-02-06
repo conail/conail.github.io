@@ -4,6 +4,7 @@ title:  "Logical Volume Manager"
 date:   2015-02-03 17:17:17
 categories: linux
 bg: bg2.jpg
+description: Virtualized storage for Linux.
 ---
 
 # Introduction

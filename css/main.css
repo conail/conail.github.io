@@ -61,6 +61,18 @@ em { font-style:normal; font-weight:bold; }
 #post > aside dl dd {  }
 #post .body { background:#FFF; clear:left; float:left; padding:1em; width:32em; }
 
+
+/* Homepage */
+.post { background-color:#EEE; float:left; margin:0 1em 1em 0; width:23em; height:8; }
+.post header { background-color:#333; padding:1em; }
+.post header h3 { margin:0; }
+.post header h3 a { color:#FFF; text-shadow:0 1px 2px #222; }
+.post header span.date { color:#FFF; }
+.post .description { margin:1em; }
+
 /* Responsive Queries */
-@media screen and (max-width: 750px) {}
+@media screen and (max-width: 750px) {
+  #site { width:26em; }
+
+}
 @media screen and (max-width: 600px) {}

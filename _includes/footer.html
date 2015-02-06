@@ -1,5 +1,8 @@
 <footer>
   <h2>{{ site.title }}</h2>
   <p>{{ site.description }}</p>
+  {% if page.att %}
+  <p>Background image: {{ page.att }}</p>
+  {% endif %}
   <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 </footer>

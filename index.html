@@ -9,8 +9,15 @@ title: Home
 <h2>WIP</h2>
 
 {% for post in site.posts %}
-  <div class="post">
+<div class="post">
+  {% if post.bg %}
+    <header style="background-image:url('/img/{{ post.bg }}');"/>
+  {% else %}
+    <header>
+  {% endif %}
     <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-  </div>
+  </header>
+  <div class="description">{{ post.description }}</div>
+</div>
 {% endfor %}
