@@ -9,6 +9,7 @@
 
 /* Fonts */
 @font-face { font-family:Fraktur; src:url("../fonts/fraktur.otf"); }
+@font-face { font-family:Scala; src:url("../fonts/scala.otf"); }
 
 /* HTML5 Elements */
 section, article, nav, header, footer, aside { display: block; }
@@ -16,33 +17,44 @@ section, article, nav, header, footer, aside { display: block; }
 
 * { margin:0; padding:0; }
 html, body { height: 100%; }
-body { background:#086F82; color:#D6DAE6; font:300 16px/1.5em Helvetica, Arial, sans-serif; }
+body { background:#FFF; color:#111; font:300 18px/1.5em Scala, Helvetica, Arial, sans-serif; }
 h1, h2, h3, h4, h5, h6 { font:bold 100% Fraktur; }
 a         { color: #2a7ae2; text-decoration:none; }
 a:hover   { color: #000; text-decoration:underline; }
 a:visited { color: #205caa; }
 
 /* Site Header */
-body > header { background:#03617B; color:#FFF; overflow:auto; }
-body > header h1 { float:left; margin:1em; }
+body > header { color:#222; height:4em; }
+body > header h1 { float:left; letter-spacing:-1px; margin:1em; }
 body > header h1 a { font-size:2em; }
-body > header nav { float: left; }
 body > header a, 
 body > header a:hover, 
-body > header a:visited { color:#FFF; }
+body > header a:visited { color:#222; text-decoration:none; }
+body > header nav { float:left; }
+body > header nav a { float:left; padding:1.5em; }
 
 /* Page */
 body > section { background:#FFF; color:#111; margin:1em; padding:1em; }
 body > article ul { list-style:square; margin:0 0 0 1em; }
 
 /* Site Footer */
-body > footer { background:#03617B; color:#FFF; overflow:auto; padding:1em; }
+body > footer { background:#EEE; color:#111; overflow:auto; padding:1em; }
 
 /* Page Specific ------------------------------------------------------------*/
 section[role='home'] {}
-section[role='home'] ul.posts {}
+section[role='home'] ul.posts { list-style:none; }
 section[role='home'] ul.posts li a { font-family:Fraktur; }
 section[role='home'] ul.posts li a span.date { clear:left; display:block; }
+section[role='page'] { margin:0 0 2em 0; }
+section[role='page'] h1 { font-size:2em; }
+article[role='post'] header h1 { font-size:2em; }
+article[role='post'] header dl.meta { clear:both; display:block; margin:0 0 2em 0; width:100%; }
+article[role='post'] header dl.meta dt { float:left; font-weight:300; margin-right:0.5em; }
+article[role='post'] header dl.meta dd { float:left; }
+article[role='post'] section.body { clear:both; }
+article[role='post'] section.body h1 { font-size:1.6em; }
+article[role='post'] section.body ul, 
+article[role='post'] section.body ol { margin:0 0 0 1.6em; }
 
 /* Responsive Queries */
 @media screen and (max-width: 750px) {
