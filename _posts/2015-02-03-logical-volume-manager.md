@@ -45,4 +45,5 @@ Flash, solid state
 
 1. [Logical Volume Manager (Linux), Wikipedia](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux))
 1. [LVM HOWTO](http://www.tldp.org/HOWTO/LVM-HOWTO/)
-
+1. [RAID, Wikipedia](https://en.wikipedia.org/wiki/RAID)
+1. [Empirical Measurements of Disk Failure Rates and Error Rates, Gray and Van Ingen](http://research.microsoft.com/apps/pubs/default.aspx?id=64599)

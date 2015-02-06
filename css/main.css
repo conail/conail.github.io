@@ -17,7 +17,7 @@ section, article, nav, header, footer, aside { display: block; }
 
 * { margin:0; padding:0; }
 html, body { height: 100%; }
-body { background:#000; color:#D6DAE6; font:300 1em/1.6em Arial, sans-serif; min-height:100%; overflow:auto; }
+body { background:#000 url("/img/bg.jpg") 0 0 fixed; color:#D6DAE6; font:300 1em/1.6em Arial, sans-serif; min-height:100%; overflow:auto; }
 h1, h2, h3, h4, h5, h6 { font:bold 100% Arial; margin:1em 0 0 0; }
 a         { color: #069; text-decoration:none; }
 a:hover   { color: #000; text-decoration:underline; }
@@ -34,7 +34,7 @@ body > header nav { float:left; }
 body > header nav a { float:left; padding:1.1em; }
 
 /* Page */
-body > section[role='page'] { background:#FFF; color:#111; float:left; margin:0 0 1em 0; padding:0 0 1em 0; min-width:50em; }
+body > section[role='page'] { color:#111; padding:0 0 1em 0; min-width:50em; margin:0 0 2em 0; float:left; overflow:auto; clear:left; }
 body > section[role='page'] h1 { font-size:1.5em; margin:0 0 1em 0; }
 body > section[role='page'] h2 { font-size:1.3em; }
 body > section[role='page'] h3 { font-size:1.1em; }
@@ -51,13 +51,11 @@ section[role='home'] {}
 section[role='home'] ul.posts { list-style:none; }
 section[role='home'] ul.posts li a { font-family:Fraktur; }
 section[role='home'] ul.posts li a span.date { clear:left; display:block; }
-section[role='page'] { background:#FFF; margin:0 0 2em 0; float:left; overflow:auto; clear:left; }
-section[role='page'] h1 { color:#03617B; font-size:2em; }
-article[role='post'] header { background:#555; padding:1em 1em 2em 1em; }
-article[role='post'] header h1 { color:#FFF; font-size:2em; }
-article[role='post'] section.body { clear:left; float:left; margin:1em; max-width:32em; }
+article[role='post'] header { background:rgba(0,0,0,0.5); padding:1em 1em 2em 1em; }
+article[role='post'] header h1 { color:#FFF; text-shadow:0 1px 1px #000; font-size:2em; }
+article[role='post'] section.body { background:#FFF; clear:left; float:left; padding:1em; max-width:32em; }
 article[role='post'] section.body p { font-family:Georgia, serif; }
-article[role='post'] > aside { background:#EEE; clear:right; float:right; padding:1em; width:14em; }
+article[role='post'] > aside { background:rgba(255, 255, 255, 0.9); clear:right; float:right; padding:1em; width:14em; }
 article[role='post'] > aside dl { margin:0 0 1em 0; }
 article[role='post'] > aside dl dt { font-weight:bold; }
 article[role='post'] > aside dl dd {  }
