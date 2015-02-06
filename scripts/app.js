@@ -3,6 +3,8 @@ window.onload = function() {
 	{
 		generateContents();
 	}
+
+
 }
 
 function generateContents() {
@@ -30,5 +32,13 @@ function generateContents() {
 		elements[i].appendChild(a);
 	}
 
+	var h1 = document.createElement("em");
+	h1.innerText = "Contents";
+	document.getElementsByTagName("aside")[0].appendChild(h1);
 	document.getElementsByTagName("aside")[0].appendChild(ul);
+}
+
+function generateBreadcrumbs()
+{
+
 }
