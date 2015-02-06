@@ -17,7 +17,7 @@ section, article, nav, header, footer, aside { display: block; }
 
 * { margin:0; padding:0; }
 html, body { height: 100%; }
-body { background:#000 url("/img/bg.jpg") 0 0 fixed; color:#D6DAE6; font:300 1em/1.6em Arial, sans-serif; min-height:100%; overflow:auto; }
+body { background:#000 url("/img/bg.jpg") 0 0 fixed; background-size:cover; color:#D6DAE6; font:300 1em/1.6em Arial, sans-serif; min-height:100%; overflow:auto; }
 h1, h2, h3, h4, h5, h6 { font:100% Arial; margin:1em 0 0 0; }
 a         { color: #069; text-decoration:none; }
 a:hover   { color: #000; text-decoration:underline; }
@@ -32,7 +32,8 @@ em { font-style:normal; font-weight:bold; }
 #site > header h1 { float:left; letter-spacing:-1px; margin:1em; }
 #site > header h1 a { font-size:1.4em; color:#FFF !important; }
 #site > header nav { float:left; }
-#site > header nav a { float:left; padding:1.1em; }
+#site > header nav a { float:left; padding:1.1em; text-shadow:0 1px 0 #222; }
+#site > header nav a:hover { color:#FF0; }
 
 /* Site Footer */
 #site > footer { clear:both; color:#EEE; overflow:auto; padding:1em 1em 5em 1em; }
