@@ -1,10 +1,5 @@
 window.onload = function() {
-	if (document.getElementsByTagName("article")[0].getAttribute("role") == "post") 
-	{
-		generateContents();
-	}
-
-
+	if (document.getElementById("post")) generateContents();
 }
 
 function generateContents() {
