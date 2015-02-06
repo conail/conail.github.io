@@ -7,9 +7,11 @@ categories: linux
 
 # Introduction
 
-Logical Volumes give an abstacted view of disk storage, which doesn't concern itself with traditional partitions.  A logical volume can be resized and moved easily.
+Logical Volumes give an abstacted view of disk storage, which doesn't concern itself with traditional partitions.  A logical volume can be resized and moved easily on or between disks.
 
-# Disk Storage
+The ability to move or adjust volumes after their creation allows easier maintenance.  It is especially helpful when working with virtual machines and anticipating uncertain host environments.
+
+# Context: Disk Storage Media
 
 ## Magnetic Disks
 
