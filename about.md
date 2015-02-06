@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+bg: bg3.jpg
 ---
 
 - [Databases](/databases)
