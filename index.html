@@ -1,23 +1,27 @@
 ---
-layout: page
+layout: home
 title: Home
 ---
 <aside>
   <p class="rss"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
 </aside>
 
-<h2>WIP</h2>
+<div id="posts">
+  <h2>Posts</h2>
 
-{% for post in site.posts %}
-<div class="post">
-  {% if post.bg %}
-    <header style="background-image:url('/img/{{ post.bg }}');"/>
-  {% else %}
-    <header>
-  {% endif %}
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-  </header>
-  <div class="description">{{ post.description }}</div>
+  <ul>
+  {% for post in site.posts %}
+    <li class="post">
+      {% if post.bg %}
+      <header style="background-image:url('/img/{{ post.bg }}');"/>
+      {% else %}
+      <header>
+      {% endif %}
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </header>
+      <div class="description">{{ post.description }}</div>
+    </li>
+  {% endfor %}
+  </ul>
 </div>
-{% endfor %}

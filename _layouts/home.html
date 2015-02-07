@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  {% if page.bg %}
+  <body style="background-image:url('/img/{{ page.bg }}');">
+  {% else %}
+  <body>
+  {% endif %}
+    <div id="home">
+      {% include header.html %}
+      <div id="content">
+        <article id="home">
+          {{ content }}
+        </article>
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
