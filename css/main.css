@@ -47,6 +47,7 @@ footer.common h2 { color:#999; }
 #content { color:#111; padding:0 0 1em 0; width:50em; float:left; overflow:auto; clear:left; }
 #content > header { background:rgba(0,0,0,0.5); padding:1em 1em 4em 1em; }
 #content > header h1 { color:#FFF; text-shadow:0 1px 1px #000; font-size:2em; margin:0; }
+#content > header p.description { color:#DDD; margin:0; }
 #content h1 { font-size:1.5em; margin:0 0 1em 0; }
 #content h2 { font-size:1.3em; }
 #content h3 { font-size:1.1em; }
