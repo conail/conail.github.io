@@ -1,4 +1,5 @@
 # Site Completeness Checklist
+
 This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
 
 Borrowed from [sparkbox](https://github.com/sparkbox/apprentice-at/blob/master/site_completeness_checklist.md).
@@ -34,14 +35,14 @@ based
 ### Content
 
 * [ ] 404 page
-* [ ] ~~search results page~~
-* [ ] ~~copyright page~~
-* [ ] ~~terms of use page~~
-* [ ] ~~any other legal page~~
-* [ ] credit page / sparkbox link
+* [ ] search results page
+* [ ] copyright page
+* [ ] terms of use page
+* [ ] any other legal page
+* [ ] credit page / link
 * [ ] humans.txt included
-* [ ] ~~robots.txt file pointing to sitemap.xml~~
-* [ ] ~~sitemap.xml~~
+* [ ] robots.txt file pointing to sitemap.xml
+* [ ] sitemap.xml
 * [ ] meta tags (description)
 * [ ] page titles appropriate and SEO
 * [ ] imgs with alt text
@@ -51,15 +52,15 @@ based
 
 (in dynamic content)
 * [ ] basic link styles
-* [ ] ~~blockquotes~~
+* [ ] blockquotes
 * [ ] unordered lists
 * [ ] ordered lists
 * [ ] all 6 header tags
 * [ ] inline images (left, right, center, etc in CMS content)
 * [ ] print stylesheet
 * [ ] jump to content link near top of markup (for accessibility)
-* [ ] ~~check for empty (href=#) links~~
-* [ ] ~~dynamically generated copyright date~~
+* [ ] check for empty (href=#) links
+* [ ] dynamically generated copyright date
 * [ ] form validation in place
 * [ ] error styles
 * [ ] form required fields tested
@@ -74,6 +75,7 @@ based
 ### Testing
 
 Desktop
+
 * [ ] are we going to have compatibility mode issues in IE?
 * [ ] content accessible in IE 7,8,9
 * [ ] design/content right in IE 9/10
@@ -85,6 +87,7 @@ Desktop
 * [ ] design right on a retina display
 
 Devices
+
 * [ ] design/content right in iOS phone
 * [ ] design/content right in iOS tablet
 * [ ] design/content right in Android phone
@@ -99,10 +102,10 @@ Devices
 
 * [ ] Determine hosting solution.
 * [ ] Determine launch plan. (staging environment, DNS changeover, etc)
-* [ ] ~~Get client’s google tracking ID.~~
-* [ ] ~~Get client’s mail marketing (mailchimp) ID.~~
-* [ ] ~~Get client’s social share ID’s.~~
-* [ ] ~~Get client’s social pages.~~
+* [ ] Get client’s google tracking ID.
+* [ ] Get client’s mail marketing (mailchimp) ID.
+* [ ] Get client’s social share ID’s.
+* [ ] Get client’s social pages.
 
 ---
 
@@ -111,21 +114,21 @@ Devices
 * [ ] allow indexing
 * [ ] Markup/CSS/JS Related
 * [ ] include google analytics (proper UA string)
-* [ ] ~~Un-Comment-Out the Google Analytics ID so it works post launch.~~
-* [ ] ~~ensure local jquery files are in place~~
-* [ ] ~~local jquery version should be same as google jquery version~~
-* [ ] ~~add selectivizr only if needed~~
+* [ ] Un-Comment-Out the Google Analytics ID so it works post launch.
+* [ ] ensure local jquery files are in place
+* [ ] local jquery version should be same as google jquery version
+* [ ] add selectivizr only if needed
 * [ ] add modernizr only if needed
-* [ ] ~~build custom version of modernizr (keep file small)~~
+* [ ] build custom version of modernizr (keep file small)
 
 ### Server Related
 
-* [x] The site is backed up
-* [x] Using expires headers
-* [ ] ~~Using gzip~~
-* [x] Minifying and combining our CSS
-* [x] Include caching option
-* [x] Page weight has been tested and is acceptable.
+* [ ] The site is backed up
+* [ ] Using expires headers
+* [ ] Using gzip
+* [ ] Minifying and combining our CSS
+* [ ] Include caching option
+* [ ] Page weight has been tested and is acceptable.
 
 ### Testing (How much testing do we do at launch?)
 
@@ -169,10 +172,10 @@ bugs, etc.
 
 ### Marketing
 
-* [ ] Submit to Galleries
-* [ ] Add to seesparkbox.com work section
-* [ ] Blog about launch
-* [ ] Tweet from @hearsparkbox
+* [ ] Submit to Galleries.
+* [ ] Add to portfolio.
+* [ ] Blog about launch.
+* [ ] Tweet about launch.
 * [ ] Request client quote/recommendation (if appropriate).
 
 ### Gallery Submittal:
