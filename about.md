@@ -2,8 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-bg: bg3.jpg
 ---
+
+# About this Site
+
+I want to store notes with minimal formatting and generate more usable interfaces around them.
+
+# Topics
 
 - [Databases](/databases)
   - [ISAM](/databases/isam)
