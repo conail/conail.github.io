@@ -14,6 +14,10 @@ The pages below helped me find better ways to organize content.
 - [How We build CMS Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/), Developement Seed.
 - [Overhaul of Page Generation](http://www.rioki.org/2014/12/02/overhaul-of-page-generation.html), rioki.
 
+# After Jekyll
+
+In Jekyll, it would be preferable to have content stored in a directory that is not the project root.  By default, Jekyll finds 'static' content, that is files for which a publication date is not relevant, in the root folder.  It looks for HTML and Markdown files in the root that have a [front matter](http://jekyllrb.com/docs/frontmatter/) YAML block.
+
 # Topics
 
 - [Databases](/databases)
