@@ -10,8 +10,9 @@ I make a lot of notes.  This site stores them with minimal formatting and genera
 
 The pages below helped me find better ways to organize content.
 
+- [Jekyll Documentation](http://jekyllrb.com/docs/home/)
 - [How We build CMS Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/), Developement Seed.
-- [Overhaul of Page Generation](http://www.rioki.org/2014/12/02/overhaul-of-page-generation.html), rioki,
+- [Overhaul of Page Generation](http://www.rioki.org/2014/12/02/overhaul-of-page-generation.html), rioki.
 
 # Topics
 
