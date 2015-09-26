@@ -6,7 +6,12 @@ permalink: /about/
 
 # About this Site
 
-I want to store notes with minimal formatting and generate more usable interfaces around them.
+I make a lot of notes.  This site stores them with minimal formatting and generate usable interfaces for display.
+
+The pages below helped me find better ways to organize content.
+
+- [How We build CMS Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/), Developement Seed.
+- [Overhaul of Page Generation](http://www.rioki.org/2014/12/02/overhaul-of-page-generation.html), rioki,
 
 # Topics
 
