@@ -9,11 +9,12 @@ Borrowed from [sparkbox](https://github.com/sparkbox/apprentice-at/blob/master/s
 ## Early Dev Checklist 
 
 * [ ] Dev site disallows indexing
-* [ ] Other item
+* [ ] Ensure HTML-only rendering/form submission.
 * [ ] all states of navigation/buttons (active, hover, inactive, etc)
 * [ ] dropdown menus
 * [ ] pagination
 * [ ] headline styles that work when very long (wrap to multiple lines)
+* [ ] Document directory structure.
 
 ### Design
 
@@ -73,6 +74,11 @@ based
 * [ ] Run Through [a11yproject](http://a11yproject.com/checklist.html) accessibility checklist
 
 ### Testing
+
+Automation
+
+* [ ] Automated unit tests.
+* [ ] Automated integration tests.
 
 Desktop
 
