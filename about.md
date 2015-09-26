@@ -16,6 +16,8 @@ The pages below helped me find better ways to organize content.
 
 # After Jekyll
 
+[Jekyll](http://jekyllrb.com/) is a great, easy way to preprocess markup files for the web.  That it's built with [Github Pages](https://pages.github.com/) makes it stupidly easy to host a site.
+
 In Jekyll, it would be preferable to have content stored in a directory that is not the project root.  By default, Jekyll finds 'static' content, that is files for which a publication date is not relevant, in the root folder.  It looks for HTML and Markdown files in the root that have a [front matter](http://jekyllrb.com/docs/frontmatter/) YAML block.
 
 # Topics
