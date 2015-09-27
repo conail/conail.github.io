@@ -7,3 +7,4 @@ end
 
 gem 'jekyll'
 gem 'rouge'
+gem 'rake'
