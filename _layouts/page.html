@@ -2,5 +2,8 @@
 layout: default
 ---
 <article>
+  {% if page.description %}
+  <p class="description">{{ page.description }}</p>
+  {% endif %}
   {{ content }}
 </article>
