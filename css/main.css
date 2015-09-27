@@ -1,15 +1,15 @@
 body { background:#333; color:#FFFFF6; font:normal 1.1em/1.8em 'Fjord One', serif; margin:0; }
 h1, h2, h3 { font-family:'Monda' sans-serif; font-weight:normal; }
 p { margin:0 0 1em 0; }
-a { color:#6CF; text-decoration:none; }
+a { color:#FC0; text-decoration:none; }
+a:hover { text-decoration:underline; }
 em { font-style:normal; font-weight:bold; }
 .site { background:#222; color:#FFF; font-family:'Monda' sans-serif; overflow:auto; padding:0 1em; }  
-.site a { color:#FFF; text-decoration:none; }
 header.site h1 { font-size:1em; }
-header.site h1 a { color:#FC0; }
 header.site { align-items:center; background:#222; color:#FFF; display:flex; justify-content:space-between; }
 header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
+footer.site { font-size:0.8em; }
 #search input { background:#FFF; border:0; padding:0.5em; }
 article { display:flex; flex-direction:column; justify-content:center; margin:1em; }
 article aside { background:#444; float:right; margin-left:1em; padding:1em; width:12em; }
