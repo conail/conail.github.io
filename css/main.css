@@ -11,7 +11,7 @@ header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
 footer.site { font-size:0.8em; }
 #search input { background:#FFF; border:0; padding:0.5em; }
-article { display:flex; flex-direction:column; flex-grow:1; margin:1em; }
+article { display:flex; flex-direction:column; flex-grow:1; margin:1em auto; max-width:40em; }
 article aside { background:#444; float:right; margin-left:1em; padding:1em; width:12em; }
 article aside dl.meta {}
 article aside dl.meta dt { float:none; font-weight:bold; }
