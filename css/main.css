@@ -1,9 +1,9 @@
 body { background:#333; color:#FFFFF6; font:normal 1em/1.8em Arial, sans-serif; margin:0; }
-h1, h2, h3 { font-weight:normal; }
+h1, h2, h3 { font-family:'Itim' cursive; font-weight:normal; }
 p { margin:0 0 1em 0; }
 a { color:#6CF; text-decoration:none; }
 em { font-style:normal; font-weight:bold; }
-.site { background:#222; color:#FFF; overflow:auto; padding:0 1em; }  
+.site { background:#222; color:#FFF; font-family:'Itim' cursive; overflow:auto; padding:0 1em; }  
 .site a { color:#FFF !important; text-decoration:none; }
 header.site h1 { font-size:1em; }
 header.site { align-items:center; background:#222; color:#FFF; display:flex; justify-content:space-between; }
@@ -15,7 +15,7 @@ article aside { background:#444; float:right; margin-left:1em; padding:1em; widt
 article aside dl.meta {}
 article aside dl.meta dt { float:none; font-weight:bold; }
 article aside dl.meta dd  { margin-left:0; }
-article p.description { font-size:1.2em; }
+article p.description { color:#FFB; font:1.3em 'Itim' cursive; }
 article p { max-width:50em; }
 @media screen and (max-width: 750px) {}
 @media screen and (max-width: 600px) {}
