@@ -1,4 +1,4 @@
-body { background:#333; color:#FFE; font:normal 1em/1.8em Arial, sans-serif; margin:0; }
+body { background:#333; color:#FFFFF6; font:normal 1em/1.8em Arial, sans-serif; margin:0; }
 h1, h2, h3 { font-weight:normal; }
 p { margin:0 0 1em 0; }
 a { color:#6CF; text-decoration:none; }
@@ -10,11 +10,12 @@ header.site { align-items:center; background:#222; color:#FFF; display:flex; jus
 header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
 #search input { background:#FFF; border:0; padding:0.5em; }
-article { margin:1em; }
+article { display:flex; flex-direction:column; justify-content:center; margin:1em; }
 article aside { background:#444; float:right; margin-left:1em; padding:1em; width:12em; }
 article aside dl.meta {}
 article aside dl.meta dt { float:none; font-weight:bold; }
 article aside dl.meta dd  { margin-left:0; }
 article p.description { font-size:1.2em; }
+article p { max-width:50em; }
 @media screen and (max-width: 750px) {}
 @media screen and (max-width: 600px) {}
