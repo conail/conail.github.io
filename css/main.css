@@ -4,8 +4,9 @@ p { margin:0 0 1em 0; }
 a { color:#6CF; text-decoration:none; }
 em { font-style:normal; font-weight:bold; }
 .site { background:#222; color:#FFF; font-family:'Monda' sans-serif; overflow:auto; padding:0 1em; }  
-.site a { color:#FFF !important; text-decoration:none; }
+.site a { color:#FFF; text-decoration:none; }
 header.site h1 { font-size:1em; }
+header.site h1 a { color:#FC0; }
 header.site { align-items:center; background:#222; color:#FFF; display:flex; justify-content:space-between; }
 header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
