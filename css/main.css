@@ -11,11 +11,12 @@ header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
 footer.site { font-size:0.8em; }
 #search input { background:#FFF; border:0; padding:0.5em; }
-article { display:flex; flex-direction:column; flex-grow:1; margin:1em auto; max-width:40em; }
-article aside { background:#444; float:left; margin-left:1em; padding:1em; width:12em; }
-article aside dl.meta {}
-article aside dl.meta dt { float:none; font-weight:bold; }
-article aside dl.meta dd  { margin-left:0; }
+article { display:flex; flex-direction:column; flex-grow:1; margin:2em auto; max-width:42em; padding:0 9em; }
+article header { }
+article header dl.meta { color:#555; float:left; margin:0.5em 1em 0 -9em; }
+article header dl.meta:hover { color:#AAA; }
+article header dl.meta dt { float:none; font-weight:bold; }
+article header dl.meta dd  { margin-left:0; }
 article p.description { color:#FFB; font:1.3em 'Monda' sans-serif; }
 article p { max-width:50em; }
 @media screen and (max-width: 750px) {}

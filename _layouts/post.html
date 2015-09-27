@@ -2,10 +2,10 @@
 layout: default
 ---
 <article id="post">
-  <aside>
+  <header>
     <dl class="meta">
       <dt>Published </dt>
-      <dd>{{ page.date | date: "%b %-d, %Y" }}</dd>
+      <dd><time>{{ page.date | date: "%b %-d, %Y" }}</time></dd>
       {% if page.author %}
       {{ page.author }}
       {% endif %}
@@ -13,9 +13,9 @@ layout: default
       {{ page.meta }}
       {% endif %}
     </dl>
-  </aside>
-  {% if page.description %}
-  <p class="description">{{ page.description }}</p>
-  {% endif %}
+    {% if page.description %}
+    <p class="description">{{ page.description }}</p>
+    {% endif %}
+  </header>
   {{ content }}
 </article>
