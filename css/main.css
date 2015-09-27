@@ -5,8 +5,8 @@ a { color:#FC0; text-decoration:none; }
 a:hover { text-decoration:underline; }
 em { font-style:normal; font-weight:bold; }
 .site { background:#222; color:#FFF; font-family:'Monda' sans-serif; overflow:auto; padding:0 1em; }  
-header.site h1 { font-size:1em; }
-header.site { align-items:center; background:#222; color:#FFF; display:flex; justify-content:space-between; }
+header.site { align-items:center; background:#222; color:#FFF; display:flex; justify-content:flex-end; }
+header.site h1 { flex-grow:1; font-size:1em; }
 header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
 footer.site { font-size:0.8em; }
