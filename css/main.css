@@ -1,11 +1,11 @@
-body { background:#333; color:#FFFFF6; display:flex; flex-direction:column; font:normal 1.1em/1.8em 'Fjord One', serif; margin:0; min-height:100vh; }
+body { background:#222; color:#FFFFF6; display:flex; flex-direction:column; font:normal 1.1em/1.8em 'Fjord One', serif; margin:0; min-height:100vh; }
 h1, h2, h3 { font-family:'Monda' sans-serif; font-weight:normal; }
 p { margin:0 0 1em 0; }
 a { color:#FC0; text-decoration:none; }
 a:hover { text-decoration:underline; }
 em { font-style:normal; font-weight:bold; }
-.site { background:#222; color:#FFF; font-family:'Monda' sans-serif; overflow:auto; padding:0 1em; }  
-header.site { align-items:center; background:#222; color:#FFF; display:flex; justify-content:flex-end; }
+.site { background:#111; color:#FFF; font-family:'Monda' sans-serif; overflow:auto; padding:0 1em; }  
+header.site { align-items:center; display:flex; justify-content:flex-end; }
 header.site h1 { flex-grow:1; font-size:1em; }
 header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
