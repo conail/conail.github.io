@@ -2,6 +2,7 @@
 layout: page
 title: Matter
 permalink: /matter/
+description: A place to experiment with RDFa and Linked Data.
 ---
 
 # Books
