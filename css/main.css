@@ -1,4 +1,4 @@
-body { background:#333; color:#FFFFF6; font:normal 1.1em/1.8em 'Fjord One', serif; margin:0; }
+body { background:#333; color:#FFFFF6; display:flex; flex-direction:column; font:normal 1.1em/1.8em 'Fjord One', serif; margin:0; min-height:100vh; }
 h1, h2, h3 { font-family:'Monda' sans-serif; font-weight:normal; }
 p { margin:0 0 1em 0; }
 a { color:#FC0; text-decoration:none; }
@@ -11,7 +11,7 @@ header.site nav a { padding:0.5em; }
 footer.site { padding-top:1em; }
 footer.site { font-size:0.8em; }
 #search input { background:#FFF; border:0; padding:0.5em; }
-article { display:flex; flex-direction:column; justify-content:center; margin:1em; }
+article { display:flex; flex-direction:column; flex-grow:1; margin:1em; }
 article aside { background:#444; float:right; margin-left:1em; padding:1em; width:12em; }
 article aside dl.meta {}
 article aside dl.meta dt { float:none; font-weight:bold; }
