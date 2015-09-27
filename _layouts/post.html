@@ -4,7 +4,7 @@ layout: default
 <article id="post">
   <aside>
     <dl class="meta">
-      <dt>Written </dt>
+      <dt>Published </dt>
       <dd>{{ page.date | date: "%b %-d, %Y" }}</dd>
       {% if page.author %}
       {{ page.author }}
@@ -14,7 +14,8 @@ layout: default
       {% endif %}
     </dl>
   </aside>
-  <section class="body">
-    {{ content }}
-  </section>
+  {% if page.description %}
+  <p class="description">{{ page.description }}</p>
+  {% endif %}
+  {{ content }}
 </article>

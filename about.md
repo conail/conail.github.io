@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
+title: About this Site
 permalink: /about/
 ---
 
-# About this Site
-
-I make a lot of notes.  This site stores them with minimal formatting and generate usable interfaces for display.
+I make lots of notes.  This site stores them with minimal formatting and generate usable interfaces for display.
 
 The pages below helped me find better ways to organize content.
 
@@ -14,7 +12,7 @@ The pages below helped me find better ways to organize content.
 - [How We build CMS Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/), Developement Seed.
 - [Overhaul of Page Generation](http://www.rioki.org/2014/12/02/overhaul-of-page-generation.html), rioki.
 
-# After Jekyll
+# Jekyll
 
 [Jekyll](http://jekyllrb.com/) is a great, easy way to preprocess markup files for the web.  That it's built with [Github Pages](https://pages.github.com/) makes it stupidly easy to host a site.  However, there are a few rough edges for sites that aren't intended to be written as blogs.
 

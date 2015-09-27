@@ -1,12 +1,11 @@
-<header class="common">
-  <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+<header class="site">
+  <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a> &mdash; {{ page.title }}</h1>
   <nav>
-    <a href="/">Home</a>
     <a href="/matter">Matter</a>
     <a href="/about">About</a>
     <a href="/contact">Contact</a>
   </nav>
-  <form name="search">
-	<input type="search" placeholder="Search" name="q"/>
+  <form id="search">
+    <input type="search" action="/search" placeholder="Search" name="q"/>
   </form>
 </header>
