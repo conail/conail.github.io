@@ -1,0 +1,23 @@
+{
+  "name": "conail.github.io",
+  "version": "0.0.3",
+  "description": "Personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conail/conail.github.io.git"
+  },
+  "author": "Conail Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conail/conail.github.io/issues"
+  },
+  "homepage": "https://github.com/conail/conail.github.io#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
