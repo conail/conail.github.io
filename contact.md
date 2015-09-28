@@ -5,4 +5,4 @@ permalink: /contact/
 ---
 
 - *email:* conail@conail.net
-- *twitter:* conail
+- *twitter:* [@conail](https://www.twitter.com/conail)
