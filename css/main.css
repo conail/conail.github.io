@@ -25,3 +25,5 @@ article.post p { max-width:50em; }
 
 article.post-synopsis {  }
 article.post-synopsis p.description { color:#FFFFF6; font-size:1em; }
+
+#status { background:#CFF09E; color:#000; display:flex; justify-content:center; padding:1em; }

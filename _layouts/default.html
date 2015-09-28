@@ -3,6 +3,11 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+    {% if page.status == 'draft' %}
+    <div id="status" class="draft">
+      <p>This is a draft in progress.</p>
+    </div>
+    {% endif %}
     {{ content }}
     {% include footer.html %}
     <link rel="stylesheet" href="/css/main.css"/>
