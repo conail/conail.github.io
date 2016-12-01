@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html prefix="rdfa: http://www.w3.org/ns/rdfa#">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href='https://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
+  </head>
+  <body>    
+    <header class="site">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a> &mdash; {{ page.title }}</h1>
+      <nav>
+	<ul>
+	  <li><a href="/notes">Notes</a></li>
+	  <li>
+            <a href="/projects">Projects</a>
+            <ul>
+              <li><a href="/matter">Matter</a></li>
+            </ul>
+	  </li>
+	</ul>
+      </nav>
+    </header>
     {{ content }}
-    {% include footer.html %}
-    <link rel="stylesheet" href="/css/main.css"/>
+    <footer class="site">
+      <p class="rss"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a></p>
+    </footer>
   </body>
 </html>
