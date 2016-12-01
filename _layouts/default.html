@@ -10,14 +10,24 @@
   </head>
   <body>    
     <header class="site">
-      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a> {{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       <nav>
 	<ul>
-	  <li><a href="/notes">Notes</a></li>
+	  <li><a href="{{ site.baseurl }}/">Home</a></li>
+	  <li>
+	    <a href="/notes">Notes</a>
+	    <ul>
+	      <li><a href="">libc</a></li>
+	      <li><a href="">automata</a></li>
+	      <li><a href="">virtualization</a></li>
+	    </ul>
+	  </li>
 	  <li>
             <a href="/projects">Projects</a>
             <ul>
               <li><a href="/matter">Matter</a></li>
+	      <li><a href="/grammars">Grammars</a></li>
+	      <li><a href="/places">Places</a></li>
             </ul>
 	  </li>
 	  <li><a href="/calendar">Calendar</a></li>
