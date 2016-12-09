@@ -4,6 +4,8 @@ title: Topics
 
 # Systems
 
+- capsicum sandbox
+- vt
 - tty colors
 - ABI / API
 - LXR - linux cross reference
