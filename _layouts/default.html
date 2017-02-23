@@ -3,45 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="/{{ page.url | replace:'index.html','' }}">
+    <link rel="stylesheet" href="/screen.css" type="text/css">
   </head>
   <body>    
     <header class="site">
       <h1>{{ page.title }}</h1>
-      <nav>
-	<ul>
-	  <li><a href="{{ site.baseurl }}/">Home</a></li>
-	  <li>
-	    <a href="/notes">Notes</a>
-	    <ul>
-	      <li><a href="">libc</a></li>
-	      <li><a href="">automata</a></li>
-	      <li><a href="">virtualization</a></li>
-	    </ul>
-	  </li>
-	  <li>
-            <a href="/projects">Projects</a>
-            <ul>
-              <li><a href="/matter">Matter</a></li>
-	      <li><a href="/grammars">Grammars</a></li>
-	      <li><a href="/places">Places</a></li>
-            </ul>
-	  </li>
-	  <li><a href="/calendar">Calendar</a></li>
-	</ul>
-      </nav>
     </header>
+    <aside>
+    </aside>
     {{ content }}
     <footer class="site">
-      <p class="rss"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a></p>
-      <p class="license">
-	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-	  <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
-	</a>
-      </p>
+      <p class="rss"><a href="/feed.xml">RSS</a></p>
     </footer>
   </body>
 </html>
