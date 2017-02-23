@@ -4,9 +4,9 @@ title: Notes
 ---
 
 {% for post in site.posts %}
-  <ul>
+  <ul id="posts">
     <li>
-      <a href="/{{ post.url }}">{{ post.title }}</a> 
+      <a href="{{ post.url }}">{{ post.title }}</a> 
       <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
     </li>
   </ul>
