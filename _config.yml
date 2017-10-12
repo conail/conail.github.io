@@ -5,4 +5,4 @@ twitter_username: conail
 github_username: conail
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
