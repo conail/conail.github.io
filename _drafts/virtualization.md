@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using the Xen Hypervisor
+title: Xen Hypervisor
 description: A Hypervisor allows multiple operating systems to coexist simultaneously on the same hardware, sharing access to the CPU.  Xen is a free microkernel hypervisor in widespread use, powering production clouds including Amazon Web Services, Rackspace and Linode.  It was originally developed at Cambridge University and is supported by the Linux Foundation.
 ---
 
