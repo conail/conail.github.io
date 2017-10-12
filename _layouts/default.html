@@ -9,16 +9,27 @@
     <link rel="canonical" href="/{{ page.url | replace:'index.html','' }}">
     <link rel="stylesheet" href="/css/screen.css" type="text/css">
   </head>
-  <body>    
-    <header>
-      <h1>{{ page.title }}</h1>
-    </header>
-    <aside>
-    </aside>
-    {{ content }}
-    <footer>
-      <p class="rss"><a href="/feed.xml">RSS</a></p>
-    </footer>
+  <body>
+    <div id="site">
+      <header>
+	<h1>{{ site.title }}</h1>
+	<nav>
+	  <a href="/about">About</a>
+	  <a href="/contact">Contact</a>
+	</nav>
+      </header>
+      <article>
+	<header>
+	  <h1>{{ page.title }}</h1>
+	<header>
+	{{ content }}
+      </article>
+      <footer>
+	<p class="contact"><a href="mailto:hello@conail.net">hello@conail.net</a></p>
+	<p class="rss"><a href="/feed.xml">RSS Feed</a></p>
+	<p class="copyright">Copyright &copy; <script>document.write((new Date()).getFullYear())</script> Conail Stewart.  All Rights Reserved.</p>
+      </footer>
+    </div>
   </body>
 </html>
 
