@@ -105,10 +105,17 @@ Most everything fits within a single backpack, excluding the cold weather or cam
 
 ## Temporary Furniture
 
+Stuff that's accumulated.
+
 - Folding Table
-- Futon
+- Shiki Futon
 - Shelves
 - 24in IPS Display
+- 2 x Blankets
+- Cloth
+
+
+
 
 
 
