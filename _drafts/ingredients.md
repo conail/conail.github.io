@@ -1,0 +1,41 @@
+---
+title: Shopping List
+layout: page
+---
+
+- Basil
+- Bay Leaves
+- Beans
+- Black Pepper
+- Butter
+- Cayenne Pepper
+- Chili Powder
+- Cinnamon
+- Coconut Oil
+- Coffee
+- Cumin 
+- Eggs
+- Flour
+- Garlic
+- Greek Yogurt
+- Milk
+- Mint
+- Mustard
+- Oats
+- Oil
+- Oregano
+- Parmesan
+- Peanut Butter
+- Pulses
+- Queso Blanco
+- Quinoa
+- Rice
+- Rosemary
+- Salt
+- Soy Sauce
+- Tea
+- Thyme
+- Turmeric
+- Vinegar
+- Wine
+- Yeast
