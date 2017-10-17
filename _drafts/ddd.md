@@ -27,6 +27,40 @@ Prefer concision.
 
 If domain experts don't understand the model, it's wrong.
 
+## Diagrams
+
+Diagrams can show structure, but behavior is difficult.
+
+Diagrams provoke conversation, which conveys meaning and behavior.  Diagrams guide attention.
+
+Vital design detail is captured in code.
+
+The model is not the diagram.
+
+## Written Design Documents
+
+Often fall behind the flow of a project.  Even program comments fall behind.
+
+A document shouldn't reproduce what the code already does.
+
+Requirements, conversation and models should use the same language.
+
+Explanatory models focus on a detail.
+
+# Balance
+
+No domain model and complex domain models can produce similar bloated designs that aren't navigable.
+
+Detachment paralysis.
+
+Analysis models shouldn't be directly implemented.  Their knowledge is lost when coding begins.
+
+Modeling should be constant and disciplined.
+
+Analysis and design should cooccur.  Bind the model and the design, without sacrificing quality.
+
+Code changes should ripple through the project, changing terminology.
+
 # Policy
 
 Policy is another name for the design pattern known as STRATEGY.
