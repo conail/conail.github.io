@@ -69,7 +69,48 @@ Usually motivated by the need to substitute rules.
 
 # Bounded Context
 
+reveal the bones.  don't hide the model, make it appropriate.
+
+Prefer predicable behavior.
+
+Models must be responsive to implmentation.
+
+Learn to express the model through code.
+
+# Domain Isolation
+
+Layered architecture
+
+Buschmann et al. 1996.  Indirect upward communication.  Callbacks and observers.
+
+# Models
+
+Types of model: Entities (Reference Objects), Value Objects, Services
+
+For every traversable association in the model, there is a mechanism in the software with the same properties.
+
+Make associations directional.
+
+Qualify/constrain relationships.
+
+## Entities
+
+Entities have identity. Attributes vary.
+
+The same entities might be of different class.
+
 # Referenences
 
 1. Domain Driven Design.  Evans
 1. Design Patterns, GoF Gamma, 1995
+
+
+
+
+
+
+
+
+
+
+
