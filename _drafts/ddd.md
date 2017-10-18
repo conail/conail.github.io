@@ -137,6 +137,53 @@ High cohesion, loose coupling.
 
 Frameworks may introduce tiers and artificial partitioning.  These can be useful, but are different.
 
+# Rules
+
+Model and rules are connected.  Express the rule in terms of the model.
+
+Don't fight the implementation paradigm.  Find a better model.
+
+Lean on language, don't get hung up on UML.
+
+Be skeptical.
+
+# Domain Object Lifecycle
+
+## Aggregates 
+
+Object relationships have no clear limit on their potential change effects.
+
+An aggregate is a group of associated objects treated as a whole when considering their change effects.
+
+Each aggregate has a root and a global identity.
+
+External objects hold references only to the root.  Internal objects may hold local references to each other.
+
+Invariants are consistency rules maintained when the system changes.
+
+Invariants which span aggregates won't be valid all of the time, reconciliation may be required.
+
+Invariants applied within an operation must be enforced with the completion of each transaction.
+
+Only the root entity can be directly obtained by a database query.  Other members must be found by association traversal.
+
+Members can hold references to other aggregate roots.
+
+Delete operations remove all members at once.
+
+## Factories 
+
+A factory is responsible for the creation of other objects.
+
+Factories provide encapsulation around complicated aggregates.
+
+Application clients shouldn't build objects or know their internal rules.
+
+
+
+
+## Repositories
+
 # Referenences
 
 1. Domain Driven Design.  Evans
