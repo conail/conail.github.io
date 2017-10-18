@@ -89,6 +89,8 @@ Types of model: Entities (Reference Objects), Value Objects, Services
 
 For every traversable association in the model, there is a mechanism in the software with the same properties.
 
+Each concept in the domain model should be reflected in an implementation element.
+
 Make associations directional.
 
 Qualify/constrain relationships.
@@ -98,6 +100,42 @@ Qualify/constrain relationships.
 Entities have identity. Attributes vary.
 
 The same entities might be of different class.
+
+Only capture essential attributes.  Attributes can be essential to the concept or behavior of the model.
+
+Language and model identity are different.
+
+Entities tend to fulfull their responsibilities by coordinating the operations of objects they own.
+
+## Value Objects
+
+Value objects don't have identity.  They are their attributes.
+
+Identity tracking has overhead.
+
+Value objects /describe/ things.
+
+Value objects are frequently transient and readily discarded after use.
+
+Avoid complexity and treat values as immutable.
+
+Attributes of value objects should form a conceptual whole.
+
+## Services
+
+Services don't contain state, and they may have side effects.
+
+Services can exist at domain, infrastructure or application layers.  Keep them distinct.
+
+Interact with entities and value objects.
+
+## Modules/Packages
+
+Modules should encapsulate and simplify reasoning with boundaries.
+
+High cohesion, loose coupling.
+
+Frameworks may introduce tiers and artificial partitioning.  These can be useful, but are different.
 
 # Referenences
 
