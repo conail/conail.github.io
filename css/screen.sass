@@ -1,25 +1,26 @@
 ---
 ---
 
+html
+  height: 100%
+  
 body
+  height: inherit
   display: grid
   font: 400 1.1em/1.7em sans-serif
   margin: 0
-h1, h2, h3, h4, h5, h6
-  margin-bottom: 0.3em
-p
-  margin: 0 0 1em 0
-a
-  color: #046
-  text-decoration: none
-  &:hover
-    text-decoration: underline
-em
-  font-style: normal
-  font-weight: 400
-
-#site
-  display: grid
+  h1, h2, h3, h4, h5, h6
+    margin-bottom: 0.3em
+  p
+    margin: 0 0 1em 0
+  a
+    color: #046
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+  em
+    font-style: normal
+    font-weight: 400
   > header
     align-items: center
     display: flex
@@ -33,6 +34,7 @@ em
       a
         margin: 1em
   > article
+    flex: 1 1 auto
     margin: auto
     color: #333
     width: 46em
@@ -56,10 +58,16 @@ em
       display: block
       margin: 0 0 2em 0
   > footer
+    flex: 0
+    background: #333
+    color: #FFF
+    height: 10em
     padding: 1em
     text-align: right
     p
       margin: 0
+    a
+      color: #FFF
   
 ul#posts
   list-style: none
