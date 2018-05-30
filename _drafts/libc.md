@@ -144,7 +144,6 @@ BSD libc is a superset of the POSIX standard library used by BSD operating syste
 1. https://android.googlesource.com/platform/bionic/
 1. http://www.theregister.co.uk/2011/03/29/google_android_and_the_linux_headers/
 
-
 ## Jump-Oriented Programming
 
 1. The missing link: explaining ELF static linking, semantically

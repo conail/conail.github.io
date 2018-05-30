@@ -135,19 +135,12 @@ title: Algorithms and Data Structures
   - Functional
 - Retroactivity
 
-
 # Algorithms
 
-
-Amortization
-
-CLRS - Actual Cost + Change in potential
-
-Potential Method
-
-Charging
-
-
+- Amortization
+- CLRS - Actual Cost + Change in potential
+- Potential Method
+- Charging
 
 # References
 
