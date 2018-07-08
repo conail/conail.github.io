@@ -104,7 +104,11 @@ Great.
 
 ## Cutting Board
 
+Bamboo.
+
 ## Coffee Grinder
+
+Hand grinder.
 
 ## French Press
 
@@ -116,13 +120,13 @@ Great.
 
 ## Bowls
 
+Steel.
+
 ## Flatware
 
 ## Glasses
 
-## Skillet
-
-## Dutchoven
+## Dutch Oven / Skillet Combo
 
 ## Refrigerator
 
@@ -136,7 +140,11 @@ Great.
 
 ## Blender
 
+Hand blender.
+
 ## Grater
+
+Box grater.
 
 ## Sharpener
 
@@ -147,6 +155,8 @@ Great.
 ## Colander
 
 ## Rolling pin
+
+Steel.
 
 ## Mixing Bowl
 

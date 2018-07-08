@@ -1,5 +1,6 @@
 ---
-title: Practical Computer Science
+title: Computer Science
+layout: page
 ---
 
 # Steps

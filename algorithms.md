@@ -148,4 +148,3 @@ title: Algorithms and Data Structures
 1. Advanced Data Structures, Peter Brass
 1. New Geometric Data Structures for Collision Detection and Haptics
 1. The Design and Analysis of Spatial Data Structures, Samet
-
